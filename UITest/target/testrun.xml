@@ -1,0 +1,21 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Third suite" verbose="1" >
+    <test name = "aFewTestsFromAClass" preserve-order="true" >
+        <classes>
+            <class name="TestngOne" >
+                <methods>
+                    <!--<include name = "mobLogin"/>-->
+                   <!--<include name = "getMoney"/>-->
+                    <!--<include name = "getMultiMoney()"/>-->
+                    <!--<include name = "bindEmail()"/>-->
+                    <!--<include name = "unbindEmail()"/>-->
+                    <!--<include name = "unbindEmailByPhone"/>-->
+                    <!--<include name = "updatePhoneByQue"/>-->
+                    <include name = "updatePhoneByText"/>
+                    <!--<include name = "addWithdrawCard"/>-->
+
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
