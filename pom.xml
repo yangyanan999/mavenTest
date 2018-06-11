@@ -10,7 +10,7 @@
 	
 	   <properties>
         <maven-surefire-plugin.version>2.19.1</maven-surefire-plugin.version>
-        <suiteXmlFile>target/testrun.xml</suiteXmlFile>
+        <suiteXmlFile>UITest/target/testrun.xml</suiteXmlFile>
     </properties>
     <dependencies>
         <dependency>
